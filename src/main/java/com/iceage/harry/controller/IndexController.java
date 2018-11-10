@@ -23,6 +23,7 @@ public class IndexController {
     @PostMapping("/github-webhook")
     public String hook() {
         log.info("webhook");
+
         return "webhook";
     }
 
