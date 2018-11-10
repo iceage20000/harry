@@ -2,3 +2,11 @@ server:
   port: 8080
   servlet:
     context-path: /harry
+
+#日志
+logging:
+  pattern:
+    console: "%d - %msg%n"
+  path: /usr/logs
+  level:
+    com.practice.dynamicdb.mapper: debug
